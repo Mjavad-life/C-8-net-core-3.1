@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "CalculatorLib"
+		},
+		{
+			"path": "CalculatorLibUnitTests"
+		}
+	]
+}

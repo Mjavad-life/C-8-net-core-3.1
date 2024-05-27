@@ -1,0 +1,3 @@
+ trace says , moyom darom nazar mindazom.
+trace error
+trace warning

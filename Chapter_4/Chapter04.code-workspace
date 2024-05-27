@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "WritingFunctions"
+		},
+		{
+			"path": "Debugging"
+		},
+		{
+			"path": "Dumpping"
+		},
+		{
+			"path": "Instrumenting"
+		},
+		{
+			"path": "CalculatorLib"
+		},
+		{
+			"path": "CalculatorLibUnitTests"
+		},
+		{
+			"path": "prime_factor"
+		},
+		{
+			"path": "prime_factor_Unit_Tests"
+		}
+	],
+	"settings": {}
+}
