@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Code\\PracticalApps\\NorthwindCms\\NorthwindCms.csproj": {}
+  },
+  "projects": {
+    "D:\\Code\\PracticalApps\\NorthwindCms\\NorthwindCms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\PracticalApps\\NorthwindCms\\NorthwindCms.csproj",
+        "projectName": "NorthwindCms",
+        "projectPath": "D:\\Code\\PracticalApps\\NorthwindCms\\NorthwindCms.csproj",
+        "packagesPath": "C:\\Users\\javad\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\PracticalApps\\NorthwindCms\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\javad\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net60"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net60": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net60": {
+          "dependencies": {
+            "Piranha": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.AspNetCore.Identity.SQLite": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.AttributeBuilder": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.Data.EF.SQLite": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.ImageSharp": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.Local.FileStorage": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.Manager": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.Manager.LocalAuth": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Piranha.Manager.TinyMCE": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
