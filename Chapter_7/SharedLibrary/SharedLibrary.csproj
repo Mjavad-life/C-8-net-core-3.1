@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+  <TargetFramework>.net6</TargetFramework>
+  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  <PackageId>Packt.CS8.Shared-Library</PackageId>
+  <PackageVersion>1.0.0.1</PackageVersion>
+  <Authors>Mark J Price</Authors>
+  <PackageReadmeFile>README.md</PackageReadmeFile>
+  <PackageLicenseExpression>
+    MS-PL
+  </PackageLicenseExpression>
+  <PackageProjectUrl>
+    http://github.com/markjprice/cs8dotnetcore3
+  </PackageProjectUrl>
+  <PackageIcon>packt-cs8-sharedlibrary.png</PackageIcon>
+<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+<PackageReleaseNotes>
+Example shared library packaged for NuGet.
+</PackageReleaseNotes>
+<Description>
+Three extension methods to validate a string value.
+</Description>
+<Copyright>
+Copyright © 2019 Packt Publishing Limited
+</Copyright>
+<PackageTags>string extension packt cs8</PackageTags>
+</PropertyGroup>
+<ItemGroup>
+<None Include="packt-cs8-sharedlibrary.png">
+<Pack>True</Pack>
+<PackagePath></PackagePath>
+</None>
+<None Include="D:\Code\Chapter_7\README.md" Pack="true" PackagePath="\" />
+</ItemGroup>
+
+</Project>
