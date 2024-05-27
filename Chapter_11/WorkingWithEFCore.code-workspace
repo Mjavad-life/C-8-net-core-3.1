@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "WorkingWithEFCore"
+		},
+		{
+			"path": "../Chapter_9/WorkingWithSerialization"
+		},
+		{
+			"path": "Excercise_2"
+		}
+	],
+	"settings": {}
+}
