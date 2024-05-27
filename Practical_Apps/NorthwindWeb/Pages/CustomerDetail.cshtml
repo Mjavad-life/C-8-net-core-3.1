@@ -1,0 +1,26 @@
+@page
+@model NorthwindWeb.Pages.CustomersDetailModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<div class="row">
+    <h1 class="display-2">CustomerDatail</h1>
+    <table class="table">
+ ////////////////////////////////////////////////////       
+        <thead class="thead-inverse">
+            <tr><th>Contact detail</th></tr>
+        </thead>
+        <tbody>
+        @foreach(string name in Model.CustomerDetail)
+        {
+            <tr><td>@name</td></tr>
+        }
+/////////////////////////////////////////////////////
+        <thead class="thead-inverse">
+            <tr><th>Order detail</th></tr>
+        </thead>
+        @foreach(int id in Model.OrderDetail)
+        {
+            <tr><td>@id</td></tr>
+        }
+        </tbody>
+    </table>
+</div>

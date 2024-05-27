@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>  
+    <TargetFramework>netcoreapp3.1</TargetFramework>  
+    <Nullable>enable</Nullable>  
+    <ImplicitUsings>disable</ImplicitUsings>  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="D:\Code\PracticalApps\NorthwindContextLib\NorthwindContextLib.csproj" />
+    
+    <ProjectReference Include="..\NorthwindEmployees_2\NorthwindEmployees_2.csproj" />
+  </ItemGroup>
+
+</Project>
